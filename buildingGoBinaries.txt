@@ -1,0 +1,4 @@
+To build go binaries for linux/arch=x86:
+    GOOS=linux GOARCH=amd64 go build
+For arm based architecture such as the raspberry pi linux/arch=arm
+    GOOS=linux GOARCH=arm go build
